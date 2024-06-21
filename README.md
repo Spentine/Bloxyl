@@ -1,5 +1,5 @@
 # Bloxyl
-A geometric font available to the public.
+A geometric font.
 
 > This README is just the text ripped from the website.
 
