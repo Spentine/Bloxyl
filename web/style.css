@@ -1,0 +1,98 @@
+@font-face {
+  font-family: "Bloxyl";
+  src:
+    local("Bloxyl"),
+    url("../fonts/v1.000/Bloxyl.otf");
+}
+
+body {
+  margin: 30px;
+  background-color: #202024;
+  color: #e0e0f0;
+  font-family: "Bloxyl";
+  font-weight: normal;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.contentSection {
+  width: 1024px;
+}
+
+h1 {
+  font-size: 48px;
+  text-align: center;
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 28px;
+  text-align: center;
+  font-weight: normal;
+  margin: 12px;
+}
+
+hr {
+  border-color: #404050;
+  background-color: #404050;
+  height: 2px;
+  border: 0;
+  margin: 24px 0px;
+}
+
+p {
+  font-size: 20px;
+}
+
+p.infoContent {
+  text-align: justify;
+}
+
+.imageTitle {
+  text-align: center;
+  margin: 0;
+}
+
+.colored {
+  color: #c0d0ff;
+}
+
+a {
+  color: #80c0ff;
+  transition: 0.1s;
+}
+
+a:hover {
+  color: #50a0ff;
+}
+
+svg {
+  margin: 8px;
+}
+
+img {
+  object-fit: contain;
+  width: 500px;
+  margin: 8px;
+}
+
+button {
+  font-family: inherit;
+  font-size: 50px;
+  color: #e0e0f0;
+  background-color: #404050;
+  padding: 24px;
+  border: 0px;
+  transition: 0.1s;
+}
+
+button:hover {
+  background-color: #505060;
+}
+
+button:focus {
+  background-color: #506050;
+}
